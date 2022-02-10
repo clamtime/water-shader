@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterTransitionToFoamInv
+  m_Shader: {fileID: -6465566751694194690, guid: 220b0c73d9186164a8778c6b9546a9d9, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_1ce6a44a58a14c9e8e013bed9e9d16ac: 0.35
+    - Vector1_21467267672b4023a33e375c63767314: -0.2
+    - Vector1_21c43060aa7e4973aa99ae4364ada48c: 0.81
+    - Vector1_4099f39487f64cd19896823595a7deff: 19.68
+    - Vector1_43dc05d1bb6b4d14a63fbce5c009fbd1: 0.668
+    - Vector1_b4f2a98c1446485693f7db326c7bf159: 85.52
+    - Vector1_d94907ef7b1e4dc2bb5761ca539c680f: 0.3
+    m_Colors:
+    - Color_1: {r: 0.13955145, g: 0.3343351, b: 0.6037736, a: 1}
+    - Color_7a99ee5145db4943a2fd5b42315ba94c: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
