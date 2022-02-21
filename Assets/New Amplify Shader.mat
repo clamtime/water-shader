@@ -10,7 +10,7 @@ Material:
   m_Name: New Amplify Shader
   m_Shader: {fileID: 4800000, guid: 92c15edbc448d4545b9622f5b63804ac, type: 3}
   m_ShaderKeywords: 
-  m_LightmapFlags: 4
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -19,27 +19,40 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BotTexture0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture0:
+        m_Texture: {fileID: 2800000, guid: 69436384d471c614dabc12398a763263, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopTexture0:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AlphaCutoff: 0.5
-    - _MossEdgeTHickness: 0.12
+    - _Displacement: 0.2
+    - _MossEdgeTHickness: 0.23
     - _MultiplyAmount: 2.24
+    - _OutlineThickness: 0.01
+    - _RampOffset: 0
+    - _RampSmoothness: 0
     - _TriplanarSampler: 0.7
     - __dirty: 0
     m_Colors:
+    - _EdgeColor: {r: 0.19417025, g: 0.21698111, b: 0.18934673, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _MatchingNoiseScale: {r: 1, g: 1, b: 1, a: 0}
     - _MatchingNoiseScale2: {r: 7, g: 7, b: 7, a: 0}
     - _MatchingTranslate: {r: 0, g: 0, b: 0, a: 0}
     - _MossDark: {r: 0.372549, g: 0.5019608, b: 0.4980392, a: 1}
-    - _MossLight: {r: 0.6039216, g: 0.682353, b: 0.5803922, a: 1}
+    - _MossLight: {r: 0.683245, g: 0.7264151, b: 0.5516643, a: 1}
     - _MossScale: {r: 1.19, g: 1, b: 1, a: 0}
     - _MossScale2: {r: 6, g: 6, b: 6, a: 0}
     - _MossTranslate: {r: 0, g: 0, b: 0, a: 0}
     - _MossTranslate2: {r: 0, g: 0, b: 0, a: 0}
-    - _RockDark: {r: 0.4862745, g: 0.6039216, b: 0.6156863, a: 1}
+    - _RockDark: {r: 0.8389958, g: 0.8962264, b: 0.1986917, a: 1}
     - _RockLight: {r: 0.6039216, g: 0.682353, b: 0.5803922, a: 1}
   m_BuildTextureStacks: []
